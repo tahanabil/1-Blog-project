@@ -1,0 +1,45 @@
+/** @format */
+
+html,
+body {
+  margin: 0px;
+}
+
+#homePageLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 1fr 150px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  height: 100vh;
+  width: 100vw;
+}
+
+#header {
+  grid-area: header;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-bottom: 1px solid #000;
+};  
+}
+
+#body {
+  grid-area: main;
+  background-color: #35f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000;
+}
