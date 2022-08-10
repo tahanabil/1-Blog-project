@@ -62,7 +62,7 @@ body {
   line-height: 2em;
 }
 #pageLayout > .header > ul > li:hover {
-  background-color: blue;
+  background-color: #f8c98c;
 }
 #pageLayout > .header > ul > li > a {
   text-decoration: none;
